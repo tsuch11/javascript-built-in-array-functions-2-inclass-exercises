@@ -8,6 +8,10 @@
 */
 
 // Start coding here
+const availableSeat = (guestList, number) => {
+    return guestList.slice(0, number)
+}
+//ใช้ slice เพราะ Copy ตัว Value ใน Array เดิมให้ไปอยู่ใน Array ใหม่โดยไม่แก้ต้นฉบับ
 
 const guestList = [
   "John",

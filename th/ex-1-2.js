@@ -8,6 +8,10 @@
 */
 
 // Start coding here
+const findIfItemExist = (products, productName) => {
+    const exist = products.includes(productName)
+    return exist ? `พบ ${productName} ในรายการสินค้า` : `ไม่พบ ${productName} ในรายการสินค้า`
+}
 
 const products = ["milk", "bread", "eggs", "butter", "cheese", "orange juice"];
 

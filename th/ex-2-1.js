@@ -9,6 +9,11 @@
 */
 
 // Start coding here
+const organizeSeat = (guestList, startSeatNo, numberOfGuest) => {
+    guestList.splice(startSeatNo, numberOfGuest);
+    return guestList;
+};
+//splice เพราะ เพราะโจทย์บอกว่าให้ลบรายชื่อแขกออก แล้ว return แขกที่เหลือ
 
 const guestList = [
   "John",

@@ -10,6 +10,10 @@
 */
 
 // Start coding here
+const findItemLocation = (products, productName) => {
+    const index = products.findIndex(item => item === productName)
+    return index === -1 ? -1 : index;
+}
 
 const products = ["milk", "bread", "eggs", "butter", "cheese", "orange juice"];
 
